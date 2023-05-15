@@ -1,8 +1,132 @@
+
 {
-  "job": [
-
+  "temp": [
+    {
+      "id": "FWP_IN_TEMP_BA_1",
+      "name": "Feed_water_pump_inlet_temp",
+      "category": "temp",
+      "condition": "Trending1"    
+    },
+    {
+      "id": "FWP_OT_TEMP_BA_1",
+      "name": "Feed_water_pump_outlet_temp",
+      "category": "temp",
+      "condition": "Trending1"
+    },
+    {
+      "id": "PSTM_IN_TEMP_BA_1",
+      "name": "Process_steam_inlet_temp",
+      "category": "temp",
+      "condition": "Trending1"
+    },
+    {
+      "id": "PSTM_OT_TEMP_BA_1",
+      "name": "Process_steam_outlet_temp",
+      "category": "temp",
+      "condition": "Trending1"
+    }
   ],
-  "users": [
+  "pressure": [
+    {
+      "id": "PSTM_IN_PR_BA_1",
+      "name": "Process_steam_inlet_press",
+      "category": "Press",
+      "condition": "Normal"
+    },
+    {
+      "id": "PSTM_Ot_pr_BA_1",
+      "name": "Process_Steam__outlet_press",
+      "category": "press",
+      "condition": "Normal"    
+    },
+    {
+      "id": "BFW_Ot_pr_BA_1",
+      "name": "Boiler_Feed_Pump_Outlet_press",
+      "category": "press",
+      "condition": "Normal"
+    },
+    {
+      "id": "BFW_In_pr_BA_1",
+      "name": "Boiler_Feed_Pump_Inlet_press",
+      "category": "press",
+      "condition": "Normal"
 
+    }
+  ],
+  "vibration" : [
+    {
+      "id": "FWP_In_vibe_BA_1",
+      "name": "Feed_Water_pump_inlet_Vb",
+      "category": "vibe",
+      "condition": "Critical" 
+    },
+    {
+      "id": "FWP_Ot_vibe_BA_1",
+      "name": "Feed_Water_pump_outlet_Vb",
+      "category": "vibe",
+      "condition": "Critical"
+    },
+    {
+      "id": "PSTM_IN_Vibe_BA_1",
+      "name": "Process_steam_inlet_Vb",
+      "category": "vibe",
+      "condition": "Critical"
+    },
+    {
+      "id": "PSTM_OT_PH_BA_1",
+      "name": "Process_steam_outlet_PH",
+      "category": "vibe",
+      "condition": "Critical"
+    }
+  ],
+  "flow": [
+    {
+      "id": "BFW_Inlet_pump_flow_BA_1",
+      "name": "Boiler_Feed_Inlet_Pump_Flow",
+      "category": "Flow",
+      "condition": "Trending1"
+      
+    },
+    {
+      "id": "BFW_Outlet_pump_flow_BA_1",
+      "name": "Boiler_Feed_Outlet_Pump_Flow",
+      "category": "Flow",
+      "condition": "Trending1"
+      
+    },
+    {
+      "id": "CWT_In_pump_flow_BA_1",
+      "name": "Cooling_Water_inlet_pump_Flow",
+      "category": "Flow",
+      "condition": "Trending1"
+    },
+    {
+      "id": "CWT_Outlet_pump_flow_BA_1",
+      "name": "Cooling_Water_Outlet_pump_Flow",
+      "category": "Flow",
+      "condition": "Trending1"
+    }
+  ],
+  "rpm" : [
+    {
+      "id": "CWT_In_pump_rpm_BA_1",
+      "name": "Cooling_Water_inlet_pump_rpm",
+      "category": "rpm",
+      "condition": "Trending2"
+      
+    },
+    {
+      "id": "CWT_Outlet_pump_rpm_BA_1",
+      "name": "Cooling_Water_Outlet_pump_rpm",
+      "category": "rpm",
+      "condition": "Trending2"
+    },
+    {
+      "id": "Eng_rpm_BA_1",
+      "name": "Engine_rpm",
+      "category": "rpm",
+      "condition": "Trending2"
+      
+    }
   ]
 }
